@@ -21,8 +21,8 @@ import {
   
   let handLandmarker = undefined;
   let runningMode = "IMAGE";
-  let enableWebcamButton: HTMLButtonElement;
-  let webcamRunning: Boolean = false;
+  let enableWebcamButton = HTMLButtonElement;
+  let webcamRunning = Boolean = false;
   
   // Before we can use HandLandmarker class we must wait for it to finish
   // loading. Machine Learning models can be large and take a moment to
@@ -111,7 +111,7 @@ import {
   // Demo 2: Continuously grab image from webcam stream and detect it.
   ********************************************************************/
   
-  const video = document.getElementById("webcam") as HTMLVideoElement;
+  const video = document.getElementById("webcam") = HTMLVideoElement;
   const canvasElement = document.getElementById(
     "output_canvas"
   ) as HTMLCanvasElement;
